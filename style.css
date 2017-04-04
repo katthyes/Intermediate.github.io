@@ -1,5 +1,32 @@
 @charset "utf-8";
+/* CSS Document */
+	/*COLOR*/
+	/*FONT*/
+	/*POSITION*/
+div.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+div.center2 {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
 
 body{
+	/*COLOR*/
 	background: #06080F;
+	color: #D59213;
+	/*FONT*/
+	/*POSITION*/
+}
+header {
+	align-content: center;
+}
+Header h1 {
+	text-align: center;
 }
