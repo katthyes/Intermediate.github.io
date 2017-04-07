@@ -3,14 +3,14 @@
 	/*COLOR*/
 	/*FONT*/
 	/*POSITION*/
-div.center {
+.center {
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%) }
-div.center2 {
+.center2 {
     margin: 0;
     position: absolute;
     left: 50%;
