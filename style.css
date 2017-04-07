@@ -35,4 +35,5 @@ Header h1 {
 }
 footer {
 text-align: center;
+	bottom: 1em;
 }
