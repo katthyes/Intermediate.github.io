@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+/*-►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►-*\
+  								#CONTENT
+								-
+  								#IMPORTS
+  								-
+  								-
+  								#ID and Classes Selectors
+  								=-------=Container box
+  								-
+  								-
+  								#DATA
+  								--------=The date of the invitation
+  								-
+  								-
+  								#Body
+  								=--------=Background settings
+  								-
+  								-
+  								-
+  								-
+  								-
+  								-
+  								-
+  								#Titles Settings
+  								-
+  								-
+  								-
+  								#Content settings
+
+\*-►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►-*/
+
+
+
+
+
+
+/*-►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►-*\
+  			#IMPORTS
+\*-►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►-*/
+	@font-face {
+    font-family: 'v';
+    src: url('fonts/vellesa_script_demo-webfont.woff2') format('woff2'),
+         url('fonts/vellesa_script_demo-webfont.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'm';
+    src: url('fonts/modestyfreshstyle-webfont.woff2') format('woff2'),
+         url('fonts/modestyfreshstyle-webfont.woff') format('woff');
+}
+
+
+
+
+
+/*-►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►-*\
+  			#ID AND CLASSES
+\*-►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►-*/
+
+/*HERE IS THE THE WHITE BOX CONTAINER*/
+.container {
+	background-color: rgba(255, 255, 255, 0.81);
+	margin: 15% 15% 0 15%;
+	padding: 2%;
+}
+
+
+#date,
+h2 {
+ color: rgb(51, 153, 255);
+ font-family: Georgia;
+}
+
+
+
+/*-►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►-*\
+  			#BACKGROUND
+\*-►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►-*/
+
+
+body {
+	margin:0;
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	text-align: center;
+	}
+
+
+/*-►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►-*\
+  			#TITLES
+\*-►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►-*/
+
+h2{
+	margin: 0;
+}
+
+
+
+
+h2,
+h1{
+	font-weight: lighter;
+}
+
+
+
+
+
+/*HERE IS THE MAIN TITLE AND WELCOME TITLE*/
+h1,
+h3{
+	font-family: 'v';
+	font-style: italic;
+	color: rgb(153, 18, 0);
+
+
+
+}
+h3{
+	font-size: 2em;
+	font-family: 'm';
+}
+
+
+
+h1{
+	font-size: 8em;
+	margin: 0;
+}
+
+
+/*-►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►-*\
+  			#PARAGRAPHS
+\*-►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►-*/
+
+
+p{
+	font-style: italic;
+	margin: 29px;
+}
