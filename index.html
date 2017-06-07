@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Games For Geniuses</title>
+<meta charset="UTF-8" />
+<meta name="description" content="Interesting games that give your mind some trouble">
+<!-- <<<<<<<<<<< - links - >>>>>>>>>> -->
+<link rel="stylesheet" href="css/index.css" type="text/css"/>
+
+<script src="https://use.typekit.net/riw1anc.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+
+<link rel="stylesheet" type="text/css" href="css/slideshow.css">
+
+<!-- <<<<<<<<<<< - links - >>>>>>>>>> -->
+</head>
+
+<body>
+<!-- <<<<<<<<<<< - background addition - >>>>>>>>>> -->
+<img id="background" src="Imgs/background2.png" alt="">
+<!-- <<<<<<<<<<< - background addition closes - >>>>>>>>>> -->
+
+	<div class="container">
+
+
+		<div id="logo">
+			<a href="index.html">
+			<img src="Imgs/logo%201.svg" alt="logo">
+			</a>
+		</div>
+
+
+		<nav>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="games.html">GAMES</a></li>
+			</ul>
+		</nav>
+
+</header>
+
+<!-- <<<<<<<<<<< - SlideShow Opens - >>>>>>>>>> -->
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+<!-- <<<<<<<<<<< - image - >>>>>>>>>> -->
+
+  <img src="Imgs/gamethings/bloxrz.gif" style="width:100%">
+  <div class="text">Bloxrz</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+<!-- <<<<<<<<<<< - image - >>>>>>>>>> -->
+
+  <img src="Imgs/gamethings/swipe-Stop.gif" style="width:100%">
+  <div class="text">Swipe Stop</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <!-- <<<<<<<<<<< - image - >>>>>>>>>> -->
+
+  <img src="Imgs/gamethings/Theworld-hardest-Game.gif" style="width:100%">
+  <div class="text">world hardest game</div>
+</div>
+</div>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+<!-- <<<<<<<<<<< - Slideshow Closes - >>>>>>>>>> -->
+
+	</div>
+</body>
+</html>
